@@ -1,0 +1,368 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+#hover{
+   
+    font-size: 1.2rem;
+}
+
+#hover:hover{
+    color: rgb(241, 128, 52);
+    border-bottom: solid 3px  #e67112da;
+    border-top:solid 3px  #e67112da;
+    border-right: solid 3px  #e67112da;
+    border-left: solid 3px  #e67112da;
+    padding: 0.5rem;
+}
+#hero{
+    text-align: center;
+}
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown-content a:hover {background-color: #ddd;}
+.dropdown:hover .dropdown-content {display: block;}
+p{
+    text-align: justify;
+}
+.welcome{
+    text-align: center;
+}
+.pic{
+    background-image: url('../images/hero-bg-3000.jpg');
+    background-repeat: no-repeat;
+    background-position: center center ;
+    background-size: cover;
+    /* background-attachment: fixed;  */
+    color:#fff;
+    /* margin-top: 20rem; */
+    padding: 3rem;
+}
+#center{
+    text-align: center;
+    font-size: 20px;
+}
+.scroll{
+    background-color: rgb(212, 104, 14);
+    position: fixed;
+    z-index: 1000;
+    width: 100%;
+    top: 0;  
+    box-shadow: 2px 0px 2px 3px  rgba(0, 0, 0, 0.7);
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+  }
+  
+  /* Create four equal columns that sits next to each other */
+  .column {
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+  }
+  
+  .column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+  }
+  
+  /* Responsive layout - makes a two column-layout instead of four columns */
+  @media screen and (max-width: 800px) {
+    .column {
+      flex: 50%;
+      max-width: 50%;
+    }
+  }
+  
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column {
+      flex: 100%;
+      max-width: 100%;
+    }
+  }
+  .btn.btn--primary,
+  button.btn--primary,
+  input[type="submit"].btn--primary,
+  input[type="reset"].btn--primary,
+  input[type="button"].btn--primary {
+    background: #3b0d11;
+    border-color: #3b0d11;
+    color: #ffffff;
+  }
+  .btn.btn--primary:hover,
+  button.btn--primary:hover,
+  input[type="submit"].btn--primary:hover,
+  input[type="reset"].btn--primary:hover,
+  input[type="button"].btn--primary:hover,
+  .btn.btn--primary:focus,
+  button.btn--primary:focus,
+  input[type="submit"].btn--primary:focus,
+  input[type="reset"].btn--primary:focus,
+  input[type="button"].btn--primary:focus {
+    background: #000000;
+    border-color: #000000;
+  }
+  .fb{
+      color: yellow;
+      padding: ;
+  }
+  .copy{
+    text-align: center;
+  }
+  #btn0{
+    color: white;
+  }
+  #btn6{
+    color: white;
+  }
+  #btn7{
+    color: white;
+  }
+  #btn8{
+    color: white;
+  }
+  ul{
+    text-align: center;
+    list-style-type: none;
+  }
+  ul a{
+    padding: 4vh;
+  }
+  li{
+    display: inline-block;
+}
+li p{
+    display: block;
+    /* text-decoration: none;  */
+    padding: 1vh;
+    font-size: 21px;
+}
+blockquote{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 18px;
+  font-style: italic;
+  margin: 0.25em 0;
+  padding: 0.25em 40px;
+  line-height: 1.45;
+  position: relative;
+  color: #383838;
+  text-align: center;
+  justify-content: center;
+}
+blockquote:before{
+  display: block;
+  content: "\201C";
+  font-size: 120px;
+  position: absolute;
+  left: -25px;
+  top: -40px;
+  color: #7a7a7a;
+}
+blockquote:after{
+  display: block;
+  content: "\201D";
+  font-size: 120px;
+  position: absolute;
+  margin-left: 50px;
+  top: 140px;
+  margin-right: 10px;
+  color: #7a7a7a;
+}
+blockquote cite{
+  color: #999999;
+  font-size: 14px;
+  display: block;
+  margin-top: 5px;
+}
+blockquote cite:before{
+  content: "\2014 \2009";
+}
+
+ 
+  /* .com{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 750px;
+    display: inline-block;
+    margin: 0 auto;
+    padding: 3rem;
+    position: relative;
+  }
+  .com blockquote.quote{
+    position: relative;
+    text-align: center;
+    display: block;
+    padding: 1rem 1.2rem;
+    width: 80%;
+    color: #484748;
+    margin: 1rem auto 2rem;
+  }
+  .com blockquote.EN{
+    background: linear-gradient(to right, #039be5 4px transparent 4px) 100% 100%, linear-gradient(to left, #039be5 4px, transparent 4px) 100% 0, linear-gradient(to bottom, #039be5 4px, transparent 4px) 100% 0, linear-gradient(to top, #039be5 4px, transparent 4px) 0 100%;
+    background-repeat: no-repeat;
+    display: block;
+    background-size: 20px 20px;
+  }
+  .com blockquote.DE{
+    background: linear-gradient(to right, #039be5 4px transparent 4px) 0% 0%, linear-gradient(to left, #039be5 4px, transparent 4px) 0% 0%, linear-gradient(to bottom, #039be5 4px, transparent 4px) 100% 100%, linear-gradient(to top, #039be5 4px, transparent 4px) 100% 100%;
+    background-repeat: no-repeat;
+    background-size: 20px 20px;
+  }
+
+  .com blockquote.quote:before,
+  .com blockquote.quote:after{
+    font-family: fontAwesome;
+    position: absolute;
+    color: #039be5;
+    font-size: 34px;
+  }
+  .com blockquote.EN:before{
+    content: "\f10d";
+    top: -12px;
+    margin-right: -20px;
+    right: 100%;
+  }
+  .com blockquote.EN:after{
+    content: "\f10e";
+    margin-left: -20px;
+    left: 100%;
+    top: auto;
+    bottom: -20px;
+  }
+  .com blockquote.DE:before{
+    content: "\f10e";
+    top: -12px;
+    margin-right: -20px;
+    right: 100%;
+  }
+  .com blockquote.DE:after{
+    content: "\f10d";
+    margin-left: -20px;
+    left: 100%;
+    top: auto;
+    bottom: -20px;
+  }
+  .side{
+    position: relative;
+    display: block;
+    padding-left: 1em;
+    border-left: 0.2em solid #039be5;
+    font-family: 'roboto', serif;
+    font-size: 2.4em; 
+    line-height: 1.5em;
+    font-weight: 100;
+  }
+  .side:before, .side:after{
+    font-family: calibri;
+    display: block;
+    color: #039be5;
+    font-size: 34px;
+  }
+  .side:before{content: '\201e';}
+  .side:after{content: '\201e';}
+  .side cite{
+    font-size: 50%;
+    text-align: center;
+    display: block;
+    top: 50%;
+  }
+  .side cite:before{content: '\2015';} */
+  :root{
+    --type-body:open sans, Helvetica, Arial, sans-serif;
+  --type-quote: vollkorn;
+  --quote-image-width: 140px;
+  --border-rad: 7px;
+  --accent-color:hsl(322deg 85% 65%);
+  --quote-bg: hsl(0 0% 97%);
+}
+
+  .article{
+    max-width: 900px;
+    margin: auto;
+  }
+  blockquote{
+    position: relative;
+    margin: 40px 0;
+    padding: 1.6em 2.4em .7em calc(1.4em);
+    font: italic 1.2rem var(--type-quote);
+    background: var(--quote-bg) no-repeat left / var(--quote-image-width);
+    border-radius: var(--border-rad);
+    border: 2px solid white;
+    box-shadow: 2px 2px 4px hsl(0 0% 0% / 20%);
+    text-indent: 1.6em;
+  }
+  @media(min-width: 768px) {
+    blockquote{
+      margin: 40px 60px;
+    }
+  }
+  blockquote::before{
+    content: "";
+    pointer-events: none;
+    position: absolute;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    border-radius: var(--border-rad);
+    box-shadow: inset -2px -2px 1px hsl(0 0% 100%), inset 2px 2px 4px hsl(0 0% 0% / 20%);
+  }
+  blockquote::after{
+    content: "";
+    position: absolute;
+    z-index: 1;
+    left: 50%;
+    top: -2px;
+    transform: translate(-50%, -50%);
+    width: 1.3em;
+    height: 1.3em;
+    background: white;
+    right: 0;
+    bottom: 0;
+    border-radius: 999px;
+    box-shadow:  0 4px 5px -1px hsla(0 0% 0% / 20%);
+    display: grid;
+    place-content: center;
+    padding-top: .5em;
+    color: var(--accent-color);
+    font-size: 36px;
+    font-style: normal;
+    text-indent: 0;
+  }
+  .image{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: var(--quote-image-width);
+    height: 100%;
+    opacity: 0.75;
+    background: var(--accent-color) var(--image) no-repeat center / cover;
+    background-blend-mode: hard-light;
+    border-top-left-radius: var(--border-rad);
+    border-bottom-left-radius: var(--border-rad);
+  }
+  cite{
+    display: block;
+    margin: 30px;
+    text-indent: 0;
+    text-align: center;
+    font: .9rem var(--type-body);
+    text-transform: uppercase;
+    color: hsl(0 0% 20%);
+  }
